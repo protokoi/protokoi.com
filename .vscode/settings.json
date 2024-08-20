@@ -1,0 +1,9 @@
+{
+  // Enable ESlint flat config support
+  "eslint.useFlatConfig": true,
+  "scss.lint.unknownAtRules": "ignore",
+  
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+}
