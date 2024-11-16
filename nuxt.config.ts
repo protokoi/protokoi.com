@@ -2,10 +2,5 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@pinia/nuxt', '@nuxt/eslint', "@nuxt/ui"],
-  eslint: {
-    config: {
-      stylistic: true,
-    },
-  },
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/icon'],
 })

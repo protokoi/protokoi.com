@@ -1,10 +1,9 @@
-// @ts-check
-import withNuxt from './.nuxt/eslint.config.mjs'
+import antfu from '@antfu/eslint-config'
 
-export default withNuxt(
-  {
-    rules: {
-      '@typescript-eslint/no-explicit-any': 'off',
-    },
+export default antfu({
+  rules: {
+    'no-undef': 'off',
   },
-)
+  vue: true,
+  typescript: true,
+})
