@@ -12,7 +12,7 @@ dependencies:
     specifier: ^0.7.0
     version: 0.7.0(typescript@5.6.3)(vue@3.5.13)
   nuxt:
-    specifier: ^3.14.0
+    specifier: ^3.14.1592
     version: 3.14.1592(eslint@9.15.0)(typescript@5.6.3)(vite@5.4.11)
   pinia:
     specifier: ^2.2.6
@@ -26,13 +26,13 @@ dependencies:
 
 devDependencies:
   '@antfu/eslint-config':
-    specifier: ^3.8.0
+    specifier: ^3.9.2
     version: 3.9.2(@typescript-eslint/utils@8.15.0)(@vue/compiler-sfc@3.5.13)(eslint@9.15.0)(typescript@5.6.3)
   '@nuxt/icon':
-    specifier: ^1.6.1
+    specifier: ^1.8.2
     version: 1.8.2(vite@5.4.11)(vue@3.5.13)
   eslint:
-    specifier: ^9.14.0
+    specifier: ^9.15.0
     version: 9.15.0
 
 packages:
@@ -112,7 +112,7 @@ packages:
       eslint-plugin-import-x: 4.4.3(eslint@9.15.0)(typescript@5.6.3)
       eslint-plugin-jsdoc: 50.5.0(eslint@9.15.0)
       eslint-plugin-jsonc: 2.18.2(eslint@9.15.0)
-      eslint-plugin-n: 17.13.2(eslint@9.15.0)
+      eslint-plugin-n: 17.14.0(eslint@9.15.0)
       eslint-plugin-no-only-tests: 3.3.0
       eslint-plugin-perfectionist: 3.9.1(eslint@9.15.0)(typescript@5.6.3)(vue-eslint-parser@9.4.3)
       eslint-plugin-regexp: 2.7.0(eslint@9.15.0)
@@ -1011,8 +1011,8 @@ packages:
     resolution: {integrity: sha512-c7hNEllBlenFTHBky65mhq8WD2kbN9Q6gk0bTk8lSBvc554jpXSkST1iePudpt7+A/AQvuHs9EMqjHDXMY1lrA==}
     engines: {node: '>=18.18'}
 
-  /@iconify/collections@1.0.485:
-    resolution: {integrity: sha512-JX7uhHxV3L8R7PThv2koPvLQuyTsX4sxxF9YRpHhFBitazvsXRVQ5RMvPmgEgBR9pNipXCxX0gJZkYoh4/stPQ==}
+  /@iconify/collections@1.0.486:
+    resolution: {integrity: sha512-E/xw5Vku+QD/eHa89W6FYSIf+ljqiBOTSAZ+dg0dCg7Wj65qZoxfp/LJBC6EZV4J2jfPS3PVOFfyxqiK4iYrkg==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -1262,7 +1262,7 @@ packages:
   /@nuxt/icon@1.8.2(vite@5.4.11)(vue@3.5.13):
     resolution: {integrity: sha512-7Ua8ER44zhe1Qn4pXAwW3GgakRf2VN9gqyltQWpyuq49NJuIG0fLcJRHRCbQi/6HPwlB4uj+e2FCDf6cDwFmRA==}
     dependencies:
-      '@iconify/collections': 1.0.485
+      '@iconify/collections': 1.0.486
       '@iconify/types': 2.0.0
       '@iconify/utils': 2.1.33
       '@iconify/vue': 4.2.0-dev.2(vue@3.5.13)
@@ -2661,7 +2661,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001683
-      electron-to-chromium: 1.5.63
+      electron-to-chromium: 1.5.64
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
@@ -3344,8 +3344,8 @@ packages:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
     dev: false
 
-  /electron-to-chromium@1.5.63:
-    resolution: {integrity: sha512-ddeXKuY9BHo/mw145axlyWjlJ1UBt4WK3AlvkT7W2AbqfRQoacVoRUCF6wL3uIx/8wT9oLKXzI+rFqHHscByaA==}
+  /electron-to-chromium@1.5.64:
+    resolution: {integrity: sha512-IXEuxU+5ClW2IGEYFC2T7szbyVgehupCWQe5GNh+H065CD6U6IFN0s4KeAMFGNmQolRU4IV7zGBWSYMmZ8uuqQ==}
 
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -3638,8 +3638,8 @@ packages:
       - '@eslint/json'
     dev: true
 
-  /eslint-plugin-n@17.13.2(eslint@9.15.0):
-    resolution: {integrity: sha512-MhBAKkT01h8cOXcTBTlpuR7bxH5OBUNpUXefsvwSVEy46cY4m/Kzr2osUCQvA3zJFD6KuCeNNDv0+HDuWk/OcA==}
+  /eslint-plugin-n@17.14.0(eslint@9.15.0):
+    resolution: {integrity: sha512-maxPLMEA0rPmRpoOlxEclKng4UpDe+N5BJS4t24I3UKnN109Qcivnfs37KMy84G0af3bxjog5lKctP5ObsvcTA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.23.0'
