@@ -1,13 +1,27 @@
-import process from 'node:process'
+import tailwindcss from '@tailwindcss/vite'
 
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-04-03',
-  devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/icon', '@pinia/nuxt'],
-  runtimeConfig: {
-    public: {
-      tmdbApiKey: process.env.TMDB_API_KEY,
-      tmdbBaseUrl: process.env.TMDB_BASE_URL,
+  app: {
+    head: {
+      meta: [
+        { name: 'color-scheme', content: 'dark' },
+      ],
+      htmlAttrs: {
+        class: 'dark',
+      },
     },
+  },
+  compatibilityDate: '2024-11-01',
+  devtools: { enabled: true },
+  css: ['~/assets/css/main.css'],
+  modules: ['@nuxtjs/color-mode', '@nuxt/icon'],
+  colorMode: {
+    classSuffix: '',
+  },
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
   },
 })
