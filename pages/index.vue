@@ -65,5 +65,9 @@ onMounted(fetchPackageInfo)
     <div v-else>
       {{ "LOADING..." }}
     </div>
+
+    <a class="absolute bottom-0" href="https://www.koijs.com/">
+      koijs.com
+    </a>
   </NuxtLayout>
 </template>
