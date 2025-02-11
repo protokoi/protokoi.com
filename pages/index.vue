@@ -33,7 +33,7 @@ onMounted(fetchPackageInfo)
         </div>
         <div class="flex flex-row items-center gap-4">
           <a
-            href="https://github.com/atlasyigitaydin/koijs-table-vue"
+            href="https://github.com/protokoi/koijs-table-vue"
             target="_blank"
             class="flex items-center gap-2 text-xs"
           >
