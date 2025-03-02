@@ -1,22 +1,31 @@
-<template>
-  <div class="bg-neutral-900 text-white doto font-extralight fixed w-screen h-screen flex flex-col gap-2 justify-center items-center">
-    <label class=""> {{ "protokoi.com" }} </label>
-    <label class=""> {{ "coming_soon" }} </label>
+<script setup lang="ts">
+</script>
 
-    <a target="_blank" href="https://github.com/protokoi" class="absolute bottom-0 flex items-center gap-1 m-2 duration-300 hover:text-green-400 hover:m-3">
-      <p class=""> {{ "protokoi" }} </p>
-      <Icon name="pixelarticons:github" class="text-xl opacity-70" />
-    </a>
-  </div>
+<template>
+  <NuxtPage />
 </template>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Doto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@font-face {
+    font-family: 'DotFont';
+    src: url('/assets/fonts/dot.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.dot {
+    font-family: 'DotFont', sans-serif;
+}
 .doto {
-  font-family: "Doto", serif;
+  font-family: "Doto", sans-serif;
   font-optical-sizing: auto;
-  font-style: normal;
   font-variation-settings:
-    "ROND" ;
+    "ROND" 0;
+}
+.playfair {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
 }
 </style>
